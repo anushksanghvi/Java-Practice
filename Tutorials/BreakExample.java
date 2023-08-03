@@ -10,7 +10,7 @@ public class BreakExample {
             if(num % 10 == 0){
                 break;
             }
-            System.out.println(num);
+            System.out.println("Your number is " + num);
         }
         while(true);
     }
