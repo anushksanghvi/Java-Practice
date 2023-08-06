@@ -9,8 +9,7 @@ public class TypePromotion {
         // System.out.println((int)b);
         // System.out.println(b-a);
         // System.out.println(a);
-
-        
+               
 //------------------------------------------------------
            
             // short a = 2;
