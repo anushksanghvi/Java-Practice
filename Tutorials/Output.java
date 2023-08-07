@@ -4,6 +4,5 @@ public class Output{
         System.out.println("Hello World!!");
         System.out.print("Hello World \n This is Anushk Sanghvi");
 
-
     }
 }
