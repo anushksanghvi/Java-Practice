@@ -36,7 +36,9 @@ public class Loops {
         }
         while(i < 10);
 
+        System.out.println("printed Hello World 10x");
 
+        
     }       
 }
 
