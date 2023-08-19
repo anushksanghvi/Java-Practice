@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class PrimeNumRange {
     public static boolean isPrime(int n){
         if(n<=1){
