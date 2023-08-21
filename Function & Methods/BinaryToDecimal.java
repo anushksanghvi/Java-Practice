@@ -14,7 +14,7 @@ public class BinaryToDecimal {
             pow++;
             binNum = binNum/10;
         }
-        System.out.print("Decimal of " + MyNum + " = " + decNum);
+        System.out.print("Decimal form of " + MyNum + " = " + decNum);
     }
     
     public static void main(String[] args) {
