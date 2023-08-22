@@ -4,8 +4,7 @@ public class AccessModifier {
         myAcc.username = "anushksanghvi";
         System.out.println(myAcc.username);   
         
-       // myAcc.Pass = "anushk123";    //Bcoz our Pass is private and it can be call within the class and not outside the class
-
+        myAcc.Pass = "anushk123";    //Bcoz our Pass is private and it can be call within the class and not outside the class
         myAcc.setPassword("anushk123");
     }
 }
@@ -18,3 +17,4 @@ class BankAccount{
         Pass = newPass;
     }
 }
+
