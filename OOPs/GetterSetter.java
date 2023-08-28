@@ -3,9 +3,9 @@ public class GetterSetter {
         Pen p1 = new Pen(); 
         
         p1.setColor("Blue");
-        System.out.println(p1.getColor());  //we need to use getColor() bcoz we cannot print directly (by p1.color) as our string color is private
+        System.out.println(p1.getColor());  //we need to use p1.getColor() bcoz we cannot print directly by p1.color as our string color is private
 
-        p1.setQuantity(14);
+        p1.setQuantity(14);     //here since our quantity is not private , so we can directly use p1.quantity
         System.out.println(p1.quantity);
 
         p1.setColor ("Red");
@@ -25,10 +25,10 @@ class Pen{
         return this.quantity;
     }
 
-    void setColor(String newColor){
+    public void setColor(String newColor){
         this.color = newColor;
     } 
-    void setQuantity(int newQuantity){
+    public void setQuantity(int newQuantity){
         this.quantity = newQuantity;
     }
 
