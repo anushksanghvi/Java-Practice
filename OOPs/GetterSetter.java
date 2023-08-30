@@ -11,6 +11,7 @@ public class GetterSetter {
         p1.setColor ("Red");
         System.out.println(p1.getColor());
 
+        // p1.printInfo();
     }
 }        
 
@@ -32,4 +33,8 @@ class Pen{
         this.quantity = newQuantity;
     }
 
+    // void printInfo(){
+    //     System.out.println(this.color);
+    //     System.out.println(this.quantity);
+    // }
 }
