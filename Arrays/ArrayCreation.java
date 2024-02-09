@@ -13,8 +13,6 @@ public class ArrayCreation{
         System.out.println(marks.length);     //To get length of an Array
         System.out.println(numbers.length);
         System.out.println(fruits.length);
-
-        System.out.println(numbers[4] + moreNumbers[5]);
         
     }
 }
