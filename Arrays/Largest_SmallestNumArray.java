@@ -3,8 +3,8 @@ public class Largest_SmallestNumArray {
 // I Method:
 
     public static void getlargestsmallestNum(int arr[]){
-        int largest = Integer.MIN_VALUE;
-        int smallest = Integer.MAX_VALUE;
+        int largest = Integer.MIN_VALUE;      //-infinity
+        int smallest = Integer.MAX_VALUE;    // +infinity
         
         for (int i = 0; i<arr.length; i++){
             if (largest < arr[i]){
