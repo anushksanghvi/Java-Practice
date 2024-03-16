@@ -28,11 +28,13 @@ public class SearchingValues_2DArray {
 
 
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
         int matrix[][] = new int[3][3];
         int rows = matrix.length, columns = matrix[0].length;
 
         System.out.println("Enter the values: ");
-        Scanner sc = new Scanner(System.in);
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
                 matrix[i][j] = sc.nextInt();
