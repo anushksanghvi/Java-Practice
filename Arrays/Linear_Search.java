@@ -4,7 +4,7 @@ public class Linear_Search {
 
     public static int linearSearch(int numbers[], int key){
 
-        for (int i=0; i<numbers.length; i++){
+        for (int i=0; i<=numbers.length-1; i++){
             if (numbers[i] == key){
                 return i;
             }
