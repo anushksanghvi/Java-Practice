@@ -22,7 +22,7 @@ public class StringsInJava {
         // Scanner sc = new Scanner(System.in);
 
         // System.out.println("Enter the name:");
-        // String name = sc.next();   // print only first letter
+        // String name = sc.next();   // print only first word
         // System.out.println(name);
         // sc.nextLine();  // consume the newline character
         
@@ -50,7 +50,7 @@ public class StringsInJava {
         System.out.println(firstname.charAt(4));
         System.out.println(fullname.charAt(5));
 
-        //function to print the string using charAt() Method------> written above
+        //calling function to print the string using charAt() Method------> written above
         printLetters(fullname);
 
     }
