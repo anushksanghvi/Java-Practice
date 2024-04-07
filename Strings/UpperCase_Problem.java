@@ -28,12 +28,14 @@ public class UpperCase_Problem {
         for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
             if (Character.isWhitespace(c)) {
-                isNewWord = true;
                 sb.append(c);
-            } else if (isNewWord) {
+                isNewWord = true;
+            } 
+            else if (isNewWord) {
                 sb.append(Character.toUpperCase(c));
                 isNewWord = false;
-            } else {
+            } 
+            else {
                 sb.append(c);
             }
         }
