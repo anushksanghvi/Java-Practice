@@ -8,7 +8,8 @@ public class ReverseString {
         return revStr;
     }
 
-    public static String reveStringII(String str){
+    // IInd Method
+    public static String reverseStringII(String str){
         StringBuilder sb = new StringBuilder();
         sb.append(str);
         sb.reverse();     //String Builder has in-built function to reverse the string
@@ -17,7 +18,7 @@ public class ReverseString {
 
     public static void main(String[] args) {
         System.out.println(reverseString("Hello"));
-        System.out.println(reveStringII("Hello"));
+        System.out.println(reverseStringII("Hello"));
         
     }
 }
