@@ -47,7 +47,7 @@ public class MergeTwoSortedArray {
     public static void main(String[] args) {
         int arr1[] = {2,5,7,9,11,21};
         int arr2[] = {4,6,10,12,16,18,22,25,35};
-        int res[] = mergeSortedArray(arr1, arr2);
-        printArr(res);
+        int finalRes[] = mergeSortedArray(arr1, arr2);
+        printArr(finalRes);
     }
 }
