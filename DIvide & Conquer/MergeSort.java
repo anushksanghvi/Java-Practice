@@ -27,7 +27,7 @@ public class MergeSort{
 
         // Merge the two subarrays into temp
         while(i<=mid && j<=ei){
-            if(arr[i]<arr[j]){
+            if(arr[i]<=arr[j]){
                 temp[k] = arr[i];
                 i++;
             }
