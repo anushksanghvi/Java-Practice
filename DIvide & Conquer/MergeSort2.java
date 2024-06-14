@@ -5,17 +5,17 @@ public class MergeSort2 {
     public static int[] mergeSort(int arr[], int si, int ei){
         //baseCase
         if (si == ei){
-            int basearr[] = new int [1];
-            basearr[0] = arr[si];
-            return basearr;
+            int baseArr[] = new int [1];
+            baseArr[0] = arr[si];
+            return baseArr;
         }
 
 
         int mid = si + ((ei-si)/2);
         int arr1[] = mergeSort(arr, si, mid);
         int arr2[] = mergeSort(arr, mid+1, ei);
-        int finalres[] = mergeSortedArray(arr1, arr2);
-        return finalres;
+        int finalRes[] = mergeSortedArray(arr1, arr2);
+        return finalRes;
     }
 
 
@@ -38,12 +38,14 @@ public class MergeSort2 {
             }
         }
 
+        // Copy remaining elements of arr1, if any
         while(i<arr1.length){
             res[k] = arr1[i];
             i++;
             k++;
         }
 
+        // Copy remaining elements of arr2, if any
         while(j<arr2.length){
             res[k] = arr2[j];
             j++;
@@ -62,7 +64,7 @@ public class MergeSort2 {
 
     public static void main(String[] args) {
         int arr[] = {13,4,16,10,22,16,8,12,25,15};
-        int res[] = mergeSort(arr, 0, arr.length-1);
-        printArr(res);
+        int result[] = mergeSort(arr, 0, arr.length-1);
+        printArr(result);
     }
 }
