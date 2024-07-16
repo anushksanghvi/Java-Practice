@@ -13,23 +13,28 @@ public class Operations {
 
         System.out.println(list);
 
-        list.add(2,10);
+        list.add(2,10);    // TC=> O(n)
         System.out.println(list);
+
 
         //get element
         int element = list.get(3);      // TC=> O(1)
         System.out.println(element);
 
+
         // Remove element
         list.remove(1);                // TC=> O(n)
         System.out.println(list);
+
 
         // Set element at index
         list.set(3, 12);       // TC=> O(n)  
         System.out.println(list);
 
+
         //Contain element
         System.out.println(list.contains(10));    // TC=> O(n)
         System.out.println(list.contains(15));
+        
     }
 }
