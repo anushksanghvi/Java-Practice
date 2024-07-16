@@ -13,6 +13,7 @@ public class GridWays {
         int w2 = gridWays(i, j+1, n, m);   //right ways
         return w1 + w2;
     }
+    
     public static void main(String[] args) {
         System.out.println("Total ways = " + gridWays(0, 0, 3, 3));
     }
