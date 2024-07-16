@@ -9,7 +9,7 @@ public class NQueenProblem3 {
             return true;
         }
 
-        //column loop
+        //column loop 
         for(int j=0; j<board.length; j++){
             if (isSafe(board, row, j)){
                 board[row][j] = 'Q';
@@ -28,7 +28,7 @@ public class NQueenProblem3 {
             if(board[i][col]== 'Q'){
                 return false;
             }
-        }
+        } 
 
         //diagonal left up
         for(int i=row-1, j=col-1; i>=0 && j>=0; i--, j--){
