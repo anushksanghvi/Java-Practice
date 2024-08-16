@@ -17,7 +17,7 @@ public class FibonacciNumber {
 
         //For printing Fibonacci Sequence till n
         int n = 10;
-        for (int i=0; i<=n; i++){
+        for (int i=0; i<n; i++){
             System.out.print(fib(i) + " ");
         }
     }
