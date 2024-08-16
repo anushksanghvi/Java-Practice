@@ -3,7 +3,8 @@ public class GetterSetter {
         Pen p1 = new Pen(); 
         
         p1.setColor("Blue");
-        System.out.println(p1.getColor());  //we need to use p1.getColor() bcoz we cannot print directly by p1.color as our string color is private
+        System.out.println(p1.color);   //we cannot print directly access/print by p1.color as our String color is private. We need getter and setter for this.
+        System.out.println(p1.getColor());  //we need to use p1.getColor() --> getter to print color
 
         p1.setQuantity(14);     //here since our quantity is not private , so we can directly use p1.quantity
         System.out.println(p1.quantity);

@@ -4,17 +4,18 @@ public class AccessModifier {
         myAcc.username = "anushksanghvi";
         System.out.println(myAcc.username);   
         
-        myAcc.Pass = "anushk123";    //Bcoz our Pass is private and it can be call within the class and not outside the class
-        myAcc.setPassword("anushk123");
+        myAcc.pass = "anushk123";    //Bcoz our Pass is private and it can be call within the class and not outside the class
+        myAcc.setPassword("qwerty");     // We can only set a new password
+        System.out.println(myAcc.pass);      // And cannot print the password
     }
 }
 
 class BankAccount{
     public String username;
-    private String Pass;
+    private String pass;
 
-    public void setPassword(String newPass){
-        Pass = newPass;
+    public void setPassword(String pwd){
+        pass = pwd;
     }
 }
 
