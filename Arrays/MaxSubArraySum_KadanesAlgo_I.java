@@ -7,17 +7,12 @@ public class MaxSubArraySum_KadanesAlgo_I {
         for(int i=0; i<arr.length; i++){
             currSum = currSum + arr[i];
 
+            maxSum = Math.max(currSum,maxSum); 
+
             if(currSum<0){
                 currSum = 0;
         }
-
-        // if(maxSum<currSum){
-        //         maxSum = currSum;
-        //     }
-
-        maxSum = Math.max(currSum,maxSum); 
-
-        }
+    }
 
         System.out.println("Max Sum =" + maxSum);
     }
