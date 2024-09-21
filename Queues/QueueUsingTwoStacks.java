@@ -26,9 +26,7 @@ public class QueueUsingTwoStacks {
                 System.out.println("Queue is empty!");
                 return -1;
             }
-            int poppedElement = s1.peek();
-            s1.pop();
-            return poppedElement;
+            return s1.pop();
         }
 
         public int peek(){      // TC = O(1)
